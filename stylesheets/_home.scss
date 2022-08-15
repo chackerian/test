@@ -1,0 +1,100 @@
+.grid-item {
+  width: 200px;
+  float: left;
+}
+
+.grid {
+  padding-top: 2em;
+}
+
+.dateDiv {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+.itemMoney {
+  font-size: 2em;
+}
+
+.editListing {
+  float: right !important;
+}
+
+.homeCardUl {
+  padding-top: 2em;
+}
+
+.homeCard {
+  margin: 1em;
+  overflow: auto;
+}
+
+.homeCardLi {
+  margin: 10px 8px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(27, 2, 35, 0.15);
+  background: white;
+}
+
+.homeCardDetails {
+  padding: 0em 1em 2.5em 1em;
+  li ul li {
+      margin: 5px auto;
+  }
+}
+
+// .homeCardImg {
+//     &:hover {
+//         animation: 0.2s;
+//         filter: brightness(70%);
+//     }
+// }
+
+.homeCardItem {
+    max-height: 18em !important;
+    img {
+      max-height: 15em !important;
+    }
+    li a h4 {
+        color: $color-spacegrey;
+        margin: 0;
+        overflow: hidden;
+        text-align: center;
+        padding: 0.5em;
+        font-weight: bold;
+        max-width: 15em;
+        white-space: nowrap !important;
+        font-family: "Oswald";
+        font-size: 1rem !important;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.homeCardLeft {
+    float: left !important;
+}
+
+.homeCardRight {
+    float: right !important;
+}
+
+.homeCardUser {
+  text-decoration: underline;
+  a {
+      font-size: 1rem !important;
+  }
+}
+
+.homeTitle {
+  padding-bottom: 0.5em;
+  a h4 {
+    font-family: 'system-ui';
+    overflow: hidden !important;
+  }
+}
+
+.homePrice {
+  font-size: 1.3em !important;
+}

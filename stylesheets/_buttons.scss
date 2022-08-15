@@ -1,0 +1,162 @@
+button {
+    border: none;
+    font-family: $font-norm;
+    padding: 13px 18px;
+}
+
+.link {
+    color: $color-link !important;
+    font-family: 'arial' !important;
+    &:hover {
+        color: #0890F2 !important;
+        text-decoration: underline;
+    }
+}
+
+.profile-link {
+    color: $color-spacegrey !important;
+    text-underline: underline;
+    font-family: 'system-ui' !important;
+    :hover {
+        color: #0890F2 !important;
+        text-decoration: underline;
+    }
+}
+
+.modalBack {
+  background-color: $color-spacered !important;
+  color: white;
+  &:hover {
+    background-color: red !important;
+    color: white;
+  }
+}
+
+.modalNext {
+  background-color: $color-spacered !important;
+  color: white;
+  margin-left: auto;
+  &:hover {
+    background-color: red !important;
+    color: white;
+  }
+}
+
+.blackon {
+  padding: 5px 10px !important;
+  border: 1px solid black;
+  border-radius: 0.2em;
+  color: black !important;
+  transition: 0.2s;
+  &:hover {
+    color: white !important;
+    background-color: $color-spacegrey !important;
+  }
+}
+
+.editButton {
+  margin-top: 10em;
+  margin-left: auto;
+  display: flex;
+}
+
+.join-button {
+    cursor: pointer;
+    margin-top: 10px;
+    user-select: none;
+    padding: 1em;
+    border-radius: 4px;
+    color: white !important;
+    b {
+        font-weight: 400 !important;
+        font-size: 1rem !important;
+    }
+    i {
+        font-size: 1.4rem;
+        color: white !important;
+        vertical-align: middle !important;
+        padding-right: 6px;
+    }
+}
+
+.modMultiBtn {
+  display: flex;
+    button {
+        outline: none;
+        border-radius: 0.2em;
+        padding: 5px 15px;
+    }
+}
+
+.listingItemShare {
+  a {
+    padding: 0.5em 0.32em;
+  }
+}
+
+.share-btn {
+    display: inline-block !important;
+    color: white !important;
+    width: 4em !important;
+    text-align: center !important;
+    border-radius: 4px;
+    margin: 0 1px !important;
+
+    &:hover {
+        color: #eeeeee !important;
+    }
+
+    &:active {
+        position: relative !important;
+        top: 2px !important;
+        box-shadow: none !important;
+        color: #e2e2e2 !important;
+        outline: none !important;
+    }
+
+    i {
+      color: #fff !important;
+    }
+}
+
+.share-btn.twitter     {
+    background: #55acee !important;
+    &:hover {
+        background: #0091FF !important;
+    }
+}
+
+.share-btn.google-plus {
+    background: #dd4b39 !important;
+    &:hover {
+      background: #FF1C00 !important;
+    } 
+}
+
+.share-btn.facebook {
+    background: #3B5998 !important;
+    &:hover {
+      background: #0B3388 !important;
+    }
+}
+
+.share-btn.linkedin {
+    background: #4875B4 !important;
+    &:hover {
+      background: #4875B4 !important;
+    }
+}
+
+.share-btn.email {
+    background: #444444 !important;
+    &:hover {
+      background: #444444 !important;
+    }
+}
+
+.share-btn.reddit {
+    background: #ff5700 !important;
+    &:hover {
+      background: #FF2F00 !important;
+    }
+}

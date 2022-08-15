@@ -1,0 +1,76 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Adds responsiveness to mobile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (max-width: 1035px) {
+  .small-search {
+    display: inline-block !important;
+  }
+
+  .searchIcon {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .headerNameOptions {
+    display: none !important;
+  }
+
+  .oneDiv {
+    margin: 5em 0.5em;
+  }
+  
+}
+
+@media (max-width: 900px) {
+
+  .carousel-cell-image {
+    width: 100%;
+  }
+
+  .carousel {
+    width: 100% !important;
+  }
+
+  .topPage {
+    display: block; 
+  }
+
+  .listingItemDiv {
+    margin: 4em 0em !important;
+    padding: 2em 1em;
+  }
+
+  .guardian {
+    margin-top: 1em !important;
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+    .profileUserImage {
+      margin: 1em auto !important;
+    }
+    
+    .profileUserLeft {
+      width: 100% !important;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .grid-item {
+      width: 50%;
+    }
+
+    .homeCardLi {
+      width: 150px;
+    }
+
+}

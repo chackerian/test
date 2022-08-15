@@ -1,0 +1,38 @@
+@keyframes blowUpModal {
+  0% {
+    transform:scale(0);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+.modal.fade .modal-dialog {
+  transition: -webkit-transform 0.3s ease-out !important;
+  transition: transform 0.3s ease-out !important;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out !important;
+  -webkit-transform: translate(0, -50px) !important;
+  transform: translate(0, 50px) !important;
+}
+
+.dropzone {
+	min-height: 150px;
+	border: 2px dashed black;
+	cursor: pointer;
+	p {
+		text-align: center;
+    	padding-top: 3em;
+	}
+}
+
+.highlighted-drop {
+	border-color: red;
+}
+
+.joinAgreeSmall {
+	font-size: 0.75rem !important;
+}
+
+.addPrice {
+	color: #339966;
+}

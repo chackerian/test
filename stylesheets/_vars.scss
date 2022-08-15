@@ -1,0 +1,38 @@
+// Theme
+$color-spacered:    	    #D9342D;
+
+$color-spaceyellow:  	    #FDF150;
+$color-spaceyellow2: 		#F7CD46;
+
+$color-money:               #339966;
+$color-gold:                #ffd700;
+
+$color-spacegrey:   	    #404040;
+$color-divider: 		    #d3d3d3;
+$color-lightgrey:   	    #999;
+$color-charcoal:            #262626;
+
+// External
+$color-facebook:    	    #4267b2;
+$color-instagram:   	    #125688;
+
+// Links
+$color-link:        	    #07C;
+$color-linkhover:   	    #0890F2;
+$color-visited:     	    #0c65a5;
+
+/////////////////////////////////////////////////////
+// Font Stacks
+/////////////////////////////////////////////////////
+
+// Text
+$font-norm:            'Helvetica Neue', sans-serif;
+$font-link:                  "Oswald", sans-serif;
+
+// Primary button font
+$font-secondary:               'Roboto', sans-serif;
+
+.money {
+    color: $color-money !important;
+    font-family: 'system-ui' !important;
+}

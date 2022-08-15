@@ -1,0 +1,62 @@
+.users {
+  flex: 0 0 23%;
+  background: white;
+  ul {
+    margin: 0;
+  }
+  ul li {
+    padding: 1.5em;
+    border-bottom: 1px solid #e7e6e7;
+    font-family: 'system-ui';
+  }
+}
+
+.allMessages {
+  display: flex;
+  border: 1px solid #e7e6e7;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+  border-left: 1px solid #e7e6e7;
+}
+
+.messages {
+  background: white;
+  overflow-y: scroll;
+  padding: 2em;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sentMessage {
+  background-color: blue;
+  color: white;
+}
+
+.receivedMessage {
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.sentMessage, .receivedMessage {
+  padding: 8px 12px;
+  border-radius: 27px;
+}
+
+.bubble {
+  display: flex;
+  margin: 1em;
+}
+
+.chat {
+  padding: 1em;
+  height: 1.5em;
+  background: white;
+  border-top: 1px solid #e7e6e7;
+  outline: none;
+}

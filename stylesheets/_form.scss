@@ -1,0 +1,102 @@
+textarea {
+  border: 1px solid $color-divider !important;
+  outline: none;
+  font-family: 'system-ui';
+  padding: 1em;
+}
+
+input {
+    font-family: $font-secondary;
+    border: none;
+    outline: none !important;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
+
+[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: #e2e2e2 !important;
+}
+
+
+select {
+  height: 34px;
+  overflow: hidden;
+  border: 1px solid black !important;
+  background-color: white !important;
+  padding: 0 10px 0 10px;
+  &:focus {
+      outline: none !important;
+  }
+}
+
+.listdescription {
+  height: 100px;
+  padding: 16px 16px 32px;
+  outline: none;
+  border: 1px solid #e2e2e2;
+}
+
+.fileDropper {
+  display: none !important;
+}
+
+#pac-input {
+    text-overflow: ellipsis;
+    width: 250px;
+    height: 3em;
+    &:focus {
+        border-color: #4d90fe;
+    }
+}
+
+.toolbar {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.contentsBit {
+  padding: 1em;
+  cursor: text;
+  min-height: 4.5em;
+  outline: none;
+}
+
+.contentBox {
+  margin: 7em auto;
+  width: 650px;
+  border-radius: 0.5em;
+  padding: 4em;
+  box-shadow: 0 0 5px #888;
+}
+
+.tools {
+  display: flex;
+  margin: 10px;
+  li {
+    color: black;
+    padding: 0.4em 0 0 0;
+    margin-right: 8px;
+  }
+  li a i:hover {
+    color: $color-spacered;
+    cursor: pointer;
+  }
+}
+
+.addBitExterior {
+  border: 1px solid #e2e2e2;
+}

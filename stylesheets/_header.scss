@@ -1,0 +1,240 @@
+@keyframes fadeInDownMini {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.search {
+  border-radius: 2px;
+  color: white;
+  padding: 6px 8px;
+  background-color: rgba(255,255,255,0.125);
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.leftNav {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  margin-right: 22px !important;
+}
+
+.logo {
+  fill: white;
+  font-size: 1.3em;
+  height: 3.8em;
+}
+
+.headerNav {
+  background-color: $color-spacered;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  height: 55px;
+  position: fixed !important;
+  border-top: 1px solid $color-spaceyellow2;
+  box-shadow: 0 -1px 4px 2px #404040;
+}
+
+.wholeNav {
+  max-width: 1050px;
+  align-items: center;
+  padding: 0em 1em 0 1em;
+  display: flex;
+  margin: 0 auto;
+  height: 55px;
+}
+
+.headerAuth {
+  li a {
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 0.2em;
+    padding: 5px 10px;
+    margin-left: 1em;
+  }
+  li a:hover {
+    color: white;
+    background: $color-spacegrey;
+  }
+}
+
+.navGeneral {
+    ul {
+        display: none;
+        position: absolute;
+        padding: 5px 0;
+        margin: 0.43em 0px 0px -10.35em !important;
+        animation: 100ms fadeInDownMini;
+        width: 12.33em;
+        border: 1px solid #d3d3d3;
+        li {
+            padding: 15px 50px 15px 15px;
+            a {
+                margin: 0 !important;
+                padding: 15px 80px 15px 15px !important;
+            }
+        }
+
+    }
+}
+
+.navNotifications {
+    margin-left: 1em;
+    margin-right: 1em;
+    ul {
+        display: none;
+        position: absolute;
+        padding: 5px 0;
+        margin: 0.43em -1px 0px -16.22em !important;
+        animation: 100ms fadeInDownMini;
+        background-color: white !important;
+        width: 18em;
+        border: 1px solid #d3d3d3;
+        li {
+            padding: 15px 50px 15px 15px;
+            display: flex;
+
+            a {
+                margin: 0 !important;
+                padding: 15px 80px 15px 15px !important;
+            }
+        }
+
+    }
+}
+
+.prof_settings {
+  margin-left: 2em;
+    ul {
+      display: none;
+      position: absolute;
+      padding: 5px 0;
+      margin: 0em 0px 0px -8.35em !important;
+      animation: 100ms fadeInDownMini;
+      background-color: white !important;
+      width: 10em;
+
+      li {
+          padding: 15px 50px 15px 15px;
+          display: flex;
+
+          a {
+              margin: 0 !important;
+              padding: 15px 80px 15px 15px !important;
+          }
+      }
+
+    }
+}
+
+.settings {
+    margin-left: auto;
+    ul {
+      display: none;
+      position: absolute;
+      padding: 5px 0;
+      margin: 0em 0px 0px -8.35em !important;
+      animation: 100ms fadeInDownMini;
+      background-color: white !important;
+      width: 10em;
+
+      li {
+          padding: 15px 50px 15px 15px;
+          display: flex;
+
+          a {
+              margin: 0 !important;
+              padding: 15px 80px 15px 15px !important;
+          }
+      }
+
+    }
+}
+
+.radiusLogo {
+  height: 33px;
+  width: 127px;
+  background-size: 202px 152px;
+  background-repeat: no-repeat;
+  background-image: url(/img/logo.svg);
+  display: block;
+}
+
+.clickDropper {
+  display: flex;
+    li ul li a {
+      padding: 15px 0px 15px 0px !important;
+      font-size: 0.8rem !important;
+    }
+    & > .navNotifications > ul > a:first-child::before {
+      left: 23.5em !important;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid white;
+      margin-top: -13px;
+    }
+    & > .navGeneral > ul > a:first-child::before {
+      left: 15.1em !important;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid white;
+      margin-top: -13px;
+    }
+    & > .settings > ul > a:first-child::before {
+      left: 12.32em !important;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid white;
+      margin-top: -13px;
+    }
+}
+
+.headerDropDownNav {
+  box-shadow: 0 4px 8px rgba(0,0,0,.15);
+  position: absolute;
+  background: white;
+  a {
+    font-family: 'system-ui' !important;
+    font-size: 0.7em;
+    font-weight: bold;
+    display: grid !important;
+    &:hover {
+        background: $color-spacered;
+        transition: 0.1s;
+        color: white !important;
+    }
+  }
+}

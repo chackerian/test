@@ -1,0 +1,67 @@
+.listingItemUser {
+  display: flex;
+    a span {
+        vertical-align: middle;
+        margin-left: 4px;
+    }
+    a img {
+        vertical-align: middle;
+        width: 65px;
+        height: 65px;
+    }
+}
+
+.listingPrice {
+  margin-left: auto;
+}
+
+.topPage {
+  display: flex;
+}
+
+.guardian {
+  margin-top: 9em;
+}
+
+.listingItemUserName {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-size: 19px;
+  padding-left: 1em;
+  a {
+    font-family: 'system-ui';
+ }
+}
+
+.listingItemCreated {
+  color: white;
+  border-radius: 0.2em;
+  padding: 5px 10px;
+  background: $color-spacered;
+}
+
+.listingItemDiv {
+  padding: 1em 2em;
+  margin: 5em auto 2em auto;
+  max-width: 950px;
+  box-shadow: 0px 2px 5px rgba(27,2,35,0.15);
+  background: white;
+  & > h1, .listingItemDiv p {
+      margin: 0;
+  }
+  &  > p {
+      font-size: 0.8rem;
+      font-style: italic;
+      color: #6c54b3;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.listingItemTitle {
+  font-size: 45px !important;
+  font-family: 'system-ui';
+  margin: 0;
+}

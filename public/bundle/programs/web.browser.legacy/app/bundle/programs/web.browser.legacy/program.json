@@ -1,0 +1,318 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "e7df041b1edbb9bb15dca3675fe77c0a3f2088ec.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/e7df041b1edbb9bb15dca3675fe77c0a3f2088ec.js?meteor_js_resource=true",
+      "replaceable": false,
+      "size": 2444320,
+      "hash": "e7df041b1edbb9bb15dca3675fe77c0a3f2088ec",
+      "sri": "hbVmenNf21Nl2PKOPUF5qtJSy1YpfbmqHhAABIFISSBCKVwG+YZQgCFWvQXi7R5UmLkatNw8fcgZDiY0S82ykw=="
+    },
+    {
+      "path": "e7df041b1edbb9bb15dca3675fe77c0a3f2088ec.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/e7df041b1edbb9bb15dca3675fe77c0a3f2088ec.stats.json?meteor_js_resource=true",
+      "size": 92462,
+      "hash": "49138cd3764d553aea5a680d37ae3fa2d9817f56",
+      "sri": "YjrS5BJuYcNUbMPW4w7AtlvdxQHQLIONdk8Wq5oS21wZP0zfcxjgBNL+z6HN42KucK6ebf+WZ7QUs3lX77N7Tg=="
+    },
+    {
+      "path": "6907750b6cd80eeef4142d96f748026e0ebc511a.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/6907750b6cd80eeef4142d96f748026e0ebc511a.css?meteor_css_resource=true",
+      "size": 168845,
+      "hash": "6907750b6cd80eeef4142d96f748026e0ebc511a",
+      "sri": "njr1P2kl3g/orZXSWSl3Fh0GXQ+BhejVH+BBwaT4BuC1yJQOsnQ3WJQtUw+BkMZnIWM1prLxPWVDuRKn8wl6Ew=="
+    },
+    {
+      "path": "packages/oauth/end_of_popup_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_popup_response.js",
+      "size": 1236,
+      "hash": "cebe0774feb530a0f294bbb9e5e76babd47901f1",
+      "sri": "odXbW5eF6T4K2PPbIoSzUTa3oXVS5U2dcIErsulYVDpwRK7EPJ6WPpYPD+4FB4TW4TxwOMohga0GV8gKpAQYmw=="
+    },
+    {
+      "path": "packages/oauth/end_of_redirect_response.js",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/oauth/end_of_redirect_response.js",
+      "size": 563,
+      "hash": "ebe5604ef48a410deb4d98284b7f07417377cd84",
+      "sri": "63JzKBxmEtiKLC2BVRY2kbBzZF3VB+qgiv3lDj1IFfvA/qBddr2+AZfoB20LP6cxn/whJDJ/c/W8vviNE03H3w=="
+    },
+    {
+      "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "size": 20127,
+      "hash": "fdefb04bdd78ef36598d9c76678991896afd4681",
+      "sri": "78kQyWufXFjqEahFd89grplVA7HuZwu359SkE7dAN2mSD4JgC1gfG9TuA9ccdsFSVfCXLtZq2WlIe1pAQ/RyxA=="
+    },
+    {
+      "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "size": 108738,
+      "hash": "714c8aa3ab61ae93c1e1efe8a2738e6f36508bde",
+      "sri": "wud+qzJ68UaQl8MbwNr4IMBmsCIgWdj/Ds68qXS2K3U16W8fNWZDsrYnY6kk0EDkrJsgl+HeLCIiZBH96HI3Qw=="
+    },
+    {
+      "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "size": 45404,
+      "hash": "4fb413597d028e8b079c10dccad4a20590a42688",
+      "sri": "KwZuBlBu8g1paY03zexVIXbvP2ShFRqZodAtctOc4SxP9hbcCKr7LMrqEu/XofRrcBUWpVnlaQxXo0sSduiCJg=="
+    },
+    {
+      "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "size": 23424,
+      "hash": "f96aefe5353b8560b49a55d4a311979c7e67068d",
+      "sri": "9TZqslWv7+P+BhUOhQnndrVhj/UP4+D6jk1xXWRbHkTd860YXiHfGiduCLNwf1WGbLKoPS8yWlaIX8uOV6dKZw=="
+    },
+    {
+      "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "size": 18028,
+      "hash": "3e4284be2fe535fb57049c3994295baa0abbdb66",
+      "sri": "OBGAT1bsPILwvvNd4KklDlRqHjV/tZ4nhPYQ1jj+w1Wie0gOP3liQ8Dj03Q74+rdqPkGTCtbSVd+FrfkDvzbgw=="
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot",
+      "size": 165742,
+      "hash": "e3687c5b837ffb9875b3c0afe0be62812d47b4b2",
+      "sri": "wWDT135n7/mGBDRhaTsqgx4RdfV5SQ1/C0EQBeqBvU9YUP9TT2chtyfAApc/P5An6pYPrEMX032x1MtT7J00Og=="
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg",
+      "size": 444379,
+      "hash": "24c43739d4184bde844f2b5c75eb34e6b2afe5be",
+      "sri": "T1ddUjMd6RouMsw0CN0OrwzyW3JE00siYxTjZH6FzihPhuO3I4xsi5Ai3E4nh79RYghJKQzc1dTEvJBfKJ0hVg=="
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.ttf",
+      "size": 165548,
+      "hash": "e609e47ad8e5a7a079002e01f466834526bccedd",
+      "sri": "n/uR5oyXUXKEi0u6JShGeMwsbrT7LUIACqhxw2ZWxM68KL+DyU35r9+/JAfAH+a1VMZgubXBGvJ8Nayt/mE2rA=="
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff",
+      "size": 98024,
+      "hash": "e386454bb7aa05ca0783f1088014dbcada530f0a",
+      "sri": "nHdt6lWgH9hU6iOzRj2axxYHfUBuy+jtDJthIP9+YDV/BSGrPjv51OF8osRKXWPuWKTno3o9PyZBWpjRHJngTw=="
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff2",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff2",
+      "size": 77160,
+      "hash": "56504de7c3d643ac333bd39e4f1c4cf0923384ad",
+      "sri": "g4/v28FJAfQe35laeP2sVXZM1JEsy3NLi+pJCRlFgpBNjyr98rbEKGZ5Es5NZWgaEETQRdG8beKxQRPwMV/Ikg=="
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/upstream/fonts/FontAwesome.otf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/upstream/fonts/FontAwesome.otf",
+      "size": 134808,
+      "hash": "1b5527de654925c489a86afe719c0267308ce62b",
+      "sri": "o6yqrDqYYax6S6I+UrkRXTm2dMtoW0VFT7S4Aymk9zcLXqfdi0HWMHmPilQIK2JBH9YzMnUiltv18rO5aruIdA=="
+    },
+    {
+      "path": "app/beep.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/beep.mp3",
+      "size": 6318,
+      "hash": "900e56446e779c91ea5a73c9adb7b80c38aac052",
+      "sri": null
+    },
+    {
+      "path": "app/index.html",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/index.html",
+      "size": 4596,
+      "hash": "1917216248be6e325c3c3a9cd01f61529da773c2",
+      "sri": null
+    },
+    {
+      "path": "app/robots.txt",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/robots.txt",
+      "size": 0,
+      "hash": "1d6ae98d42f808bbae3ef7f1bf284c4968836669",
+      "sri": null
+    },
+    {
+      "path": "app/test.tar.gz",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/test.tar.gz",
+      "size": 65896819,
+      "hash": "7c23a76a6a27e6b6baddd91730308873f61fe172",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/flexslider-icon.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/flexslider-icon.eot",
+      "size": 2082,
+      "hash": "6730bcaf1bc84a405fa14b959ac3376703a02cb6",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/flexslider-icon.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/flexslider-icon.svg",
+      "size": 2334,
+      "hash": "5df0b3c80c27a53f44e6cbe96e2fcd35f14afdc2",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/flexslider-icon.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/flexslider-icon.ttf",
+      "size": 1892,
+      "hash": "01fa1dcbe72a014151bb5df3bd18e5e116d61c77",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/flexslider-icon.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/flexslider-icon.woff",
+      "size": 1268,
+      "hash": "0941994bf6c6e12f09e4522433953f1814ff6da8",
+      "sri": null
+    },
+    {
+      "path": "app/img/favicon.ico",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/favicon.ico",
+      "size": 370070,
+      "hash": "9e9a0f43cd6bceb9a655b6e0acec566ecc268e69",
+      "sri": null
+    },
+    {
+      "path": "app/img/logo.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/logo.svg",
+      "size": 3437,
+      "hash": "78703e515eea4711697f5381b774b7961acf44f3",
+      "sri": null
+    },
+    {
+      "path": "app/img/new_arrow.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/new_arrow.jpg",
+      "size": 682,
+      "hash": "9276fcf687ba65f07360f551e50b85c8d578197e",
+      "sri": null
+    },
+    {
+      "path": "app/img/new_arrow2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/new_arrow2.png",
+      "size": 191,
+      "hash": "55fe3102ff2e38875e475908269baddeb9f5afd3",
+      "sri": null
+    },
+    {
+      "path": "app/img/new_arrow3.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/new_arrow3.png",
+      "size": 280,
+      "hash": "3481bbcf363a328af8ce50a4a63f8456e8c97edd",
+      "sri": null
+    },
+    {
+      "path": "app/img/nextarrow.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/img/nextarrow.svg",
+      "size": 0,
+      "hash": "1d6ae98d42f808bbae3ef7f1bf284c4968836669",
+      "sri": null
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "b1204c86a788edeb91d266ad188376dba883af28"
+    },
+    {
+      "path": "body.html",
+      "where": "internal",
+      "type": "body",
+      "hash": "33a76f2b4c30f6e44559d748578e1b43c573b579"
+    }
+  ]
+}

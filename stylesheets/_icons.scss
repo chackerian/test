@@ -1,0 +1,27 @@
+i {
+    color: $color-spacegrey;
+    &:hover {
+        color: black !important;
+        text-shadow: none !important;
+        transition: 0.6s;
+    }
+}
+
+.fa-facebook {
+    color: white;
+    &:hover {
+      color: inherit !important;
+    }
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.facebook {
+    background-color: $color-facebook;
+}
+
+.google {
+    background-color: #dd4b39;
+}

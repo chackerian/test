@@ -1,0 +1,40 @@
+$skeleton-animation: ($pt-transition-duration * 20) linear infinite glow !default;
+$skeleton-color-start: rgba($gray4, 0.2) !default;
+$skeleton-color-end: rgba($gray1, 0.2) !default;
+
+@keyframes glow {
+  0%,
+  100% {
+    border-color: $skeleton-color-start;
+    background-color: $skeleton-color-start;
+  }
+
+  50% {
+    border-color: $skeleton-color-end;
+    background-color: $skeleton-color-end;
+  }
+}
+
+.skeleton {
+  border-color: $skeleton-color-start !important;
+  border-radius: 2px;
+  box-shadow: none !important;
+  background: $skeleton-color-start !important;
+
+  // Prevent background color from extending to the border and overlappping
+  background-clip: padding-box !important;
+  cursor: default;
+
+  // Transparent text will occupy space but be invisible to the user
+  color: transparent !important;
+  animation: $skeleton-animation;
+  pointer-events: none;
+  user-select: none;
+
+  // Make pseudo-elements (CSS icons) and children invisible
+  &::before,
+  &::after,
+  * {
+    visibility: hidden !important;
+  }
+}
